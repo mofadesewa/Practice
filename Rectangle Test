@@ -1,0 +1,27 @@
+package Rectangle;
+public class RectangleTest {
+
+	public static void main(String[] args) {
+		
+		Rectangle myRect = new Rectangle (12.5, 10);
+		//myRect.setWidth(2.0);
+		//myRect.setHeight(3.3);
+		
+		double myArea = myRect.area();
+		
+		System.out.println("Width is " + myRect.getWidth());
+		System.out.println("Height is " + myRect.getHeight());
+		System.out.println("My rectangle has area " + myArea);
+		
+		Rectangle yourRect = new Rectangle (10.0, 10.0);
+        double yourArea = yourRect.area();
+		
+		System.out.println("Width is " + yourRect.getWidth());
+		System.out.println("Height is " + yourRect.getHeight());
+		System.out.println("My rectangle has area " + yourArea);
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}
